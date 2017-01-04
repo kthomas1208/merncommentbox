@@ -36,7 +36,7 @@ class CommentForm extends Component {
           style={style.commentFormText}
           value={this.state.text}
           onChange={this.handleTextChange} />
-        <input 
+        <input
           type='submit'
           style={style.commentFormPost}
           value='Post'/>
@@ -45,4 +45,4 @@ class CommentForm extends Component {
   }
 }
 
-export default commentFormPost
+export default CommentForm;
